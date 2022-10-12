@@ -1,0 +1,13 @@
+# stash an item
+git stash
+
+# stash items list
+git stash list
+
+# apply stashed items
+git stash apply stash@{0}
+
+# when file is retrived from stash its copied into working space from stash
+
+# clear stash files
+git stash clear

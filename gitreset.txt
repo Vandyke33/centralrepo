@@ -1,0 +1,9 @@
+# add to staging
+git add .
+
+# reset staging area
+git reset
+
+# reset working and staging area
+# nothing in working tree
+git reset --hard
