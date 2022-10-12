@@ -1,0 +1,35 @@
+# current branch
+git branch
+
+# create branch
+git branch test_a
+
+# switch branch
+git checkout test_a
+
+# delete branch
+git branch -d test_a
+
+# delete branch forcefully
+git branch -D
+
+# GIT MERGE
+# When file is available in workspace and not added
+# or comitted to any other branch it is available for
+# all branches. but once its added in staging index of
+# any specific branch its not available to other branches.
+# you can merge only your local branches into each other
+
+# merge branch with master
+git checkout master
+git merge test_a
+git push origin master
+
+# CONFLICT DURING MERGE
+# if files with same names in different braches having different data are merged together
+# there will be conflict between unsimillar lines
+# check this difference in files using diff command
+
+# Handling CONFLICT
+# manually using vi editor
+
