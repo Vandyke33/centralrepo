@@ -1,0 +1,11 @@
+mkdir centralrepo
+cd centralrepo/
+git init
+git config --global user.name "VandykeVicky"
+git config --global user.email "gujarshubham33@gmail.com"
+git status
+cat > file.txt
+git add .
+git status
+git commit -m "my first commit"
+git log
