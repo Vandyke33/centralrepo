@@ -42,3 +42,10 @@ git commit -m "commit after first pull and edit"
 > check Author and date of commit
 git push origin master
 
+# ignore files while commit
+cat > ignoredfile.txt
+# add file name to .gitignore
+vi .gitignore
+ignoredfile.txt
+*.csv
+
