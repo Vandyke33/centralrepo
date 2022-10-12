@@ -9,3 +9,20 @@ git add .
 git status
 git commit -m "my first commit"
 git log
+git show <5dab03cc25_COMMIT_ID>
+git remote add origin https://github.com/Vandyke33/centralrepo.git
+git push -u origin master
+> username
+> password
+
+Enumerating objects: 3, done.
+Counting objects: 100% (3/3), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 382 bytes | 382.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/Vandyke33/centralrepo.git
+ * [new branch]      master -> master
+branch 'master' set up to track 'origin/master'.
+
+
