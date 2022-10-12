@@ -26,3 +26,19 @@ To https://github.com/Vandyke33/centralrepo.git
 branch 'master' set up to track 'origin/master'.
 
 
+# repo pulling
+git remote add origin <repourl>
+git log
+git status
+git pull -u origin master
+git status
+git log
+git show <commit_id>
+cat >> file.txt
+> add something
+git diff
+git add .
+git commit -m "commit after first pull and edit"
+> check Author and date of commit
+git push origin master
+
